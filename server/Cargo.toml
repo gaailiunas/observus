@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 observus_common = { path = "../common" }
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
